@@ -1,0 +1,9 @@
+class Galleta:
+    def __init__(self, sabor,):
+        self.sabor = sabor
+
+    def sabor(self):
+        return f"el sabor de la galleta es {self.sabor}"   
+
+p = Galleta("chocolate")
+print(p.sabor)    
